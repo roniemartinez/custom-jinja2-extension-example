@@ -4,9 +4,9 @@ Hi!👋 My name is Ronie Martinez. I am a Python and C/C++ enthusiast working on
 
 My first open-source project is [libqpsd](https://github.com/roniemartinez/libqpsd)📸, a PSD (Photoshop Document) & PSB (Photoshop Big) Plugin for Qt/C++ (Qt4/Qt5). After **libqpsd**'s success, I started writing other libraries for Qt/C++. 
 
-When I was introduced to the Python programming language, I started to love💖 it and made several open-source projects. You can find all my projects on [Github](https://github.com/roniemartinez?tab=repositories&type=source)
+When I was introduced to the Python programming language, I started to love it 💖 and made several open-source projects. You can find all my projects on [Github](https://github.com/roniemartinez?tab=repositories&type=source)
 
-I started writing✍️ blogs about [Python](https://www.python.org) programming  in order to share my experiences developing various applications.
+I started writing✍️ blogs about [Python](https://www.python.org) programming  in order to share my  knowledge and experience developing various applications.
 
 ## My Projects
 
@@ -80,3 +80,13 @@ EasyAsPy was built using Flask⚗️. Read my first blog, [How I Created EasyAsP
 ##### Images
 
 - [Image](https://pixabay.com/en/code-programming-python-1084923/) by <a href="https://pixabay.com/users/JohnsonMartin-724525/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1084923">Johnson Martin</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1084923">Pixabay</a>
+
+<hr>
+
+## Hire me!!!
+
+I do freelance programming and technical writing from time to time. If you want to discuss a project with me, you can reach me at [ronmarti18@gmail.com](ronmarti18@gmail.com).
+
+You should be able to find buttons to my social accounts below. You can also find my CV at [ron.sh](https://ron.sh).
+ 
+Looking forward to working with you!
