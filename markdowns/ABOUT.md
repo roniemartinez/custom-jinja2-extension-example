@@ -85,7 +85,7 @@ EasyAsPy was built using Flask⚗️. Read my first blog, [How I Created EasyAsP
 
 ## Hire me!!!
 
-I do freelance programming and technical writing from time to time. If you want to discuss a project with me, you can reach me at [ronmarti18@gmail.com](ronmarti18@gmail.com).
+I do freelance programming and technical writing from time to time. If you want to discuss a project with me, you can reach me at [ronmarti18@gmail.com](mailto:ronmarti18@gmail.com).
 
 You should be able to find buttons to my social accounts below. You can also find my CV at [ron.sh](https://ron.sh).
  
