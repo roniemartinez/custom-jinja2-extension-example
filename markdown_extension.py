@@ -7,8 +7,9 @@
 # __email__ = "ronmarti18@gmail.com"
 import codecs
 
-from jinja2 import nodes
+from jinja2 import nodes, TemplateSyntaxError
 from jinja2.ext import Extension
+from jinja2.nodes import Const
 from markdown2 import Markdown
 
 
@@ -23,9 +24,17 @@ class MarkdownExtension(Extension):
 
     def parse(self, parser):
         line_number = next(parser.stream).lineno
-        md_file = [parser.parse_expression()]
-        return nodes.CallBlock(self.call_method('_to_html', md_file), [], [], []).set_lineno(line_number)
+        md_file = [Const('')]
+        body = ''
+        try:
+            md_file = [parser.parse_expression()]
+        except TemplateSyntaxError:
+            body = parser.parse_statements(['name:endmarkdown'], drop_needle=True)
+        return nodes.CallBlock(self.call_method('_to_html', md_file), [], [], body).set_lineno(line_number)
 
     def _to_html(self, md_file, caller):
-        with codecs.open('{}/{}'.format(self.environment.markdown_dir, md_file), 'r', encoding='utf-8') as f:
-            return Markdown().convert(f.read())
+        if len(md_file):
+            with codecs.open('{}/{}'.format(self.environment.markdown_dir, md_file), 'r', encoding='utf-8') as f:
+                return Markdown().convert(f.read())
+        else:
+            return Markdown().convert(caller())
