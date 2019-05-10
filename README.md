@@ -1,6 +1,6 @@
 # How to Write a Jinja2 Extension
 
-Sample application for the blog How to Write a Jinja2 Extension
+Sample application for the blog [How to Write a Jinja2 Extension](https://blog.easyaspy.org/post/4/2019-05-10-how-to-write-a-jinja2-extension)
 
 
 ## Author
