@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "custom-jinja2-extension-example"
+version = "0.1.0"
+description = "Sample application for the blog How to Write a Jinja2 Extension"
+authors = ["Ronie Martinez <ronmarti18@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.6,<4"
+Flask = "^2.0.1"
+Jinja2 = "^3.0.1"
+markdown2 = "^2.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
